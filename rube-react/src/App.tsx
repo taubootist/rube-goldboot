@@ -19,7 +19,7 @@ function App() {
     <Box sx={{ width: "100%" }}>
       <Stack spacing={2}>
         <Stack direction="row" spacing={2}>
-          <Item variant="outlined" onClick={onClick}>
+          <Item variant="contained" color="error" onClick={onClick}>
             Hello World
           </Item>
         </Stack>
