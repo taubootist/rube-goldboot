@@ -1,7 +1,7 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
-import { TauButton } from "./Button";
+import { TauButton } from "./TauButton";
 
 export default {
   title: "Example/Button",

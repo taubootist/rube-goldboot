@@ -5,6 +5,9 @@ material ui
 storybook
 formik
 yup
+redux
+redux toolkit
+react-number-format
 
 # Technology Stack
 
