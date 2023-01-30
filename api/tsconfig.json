@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "sourceMap": true,
+    "outDir": "build",
+    "target": "es2018",
+    "lib": ["dom", "dom.iterable", "esnext", "ES2018", "ESNext.AsyncIterable"],
+    "types": ["reflect-metadata", "node"],
+    "allowJs": false,
+    "esModuleInterop": true,
+    "strict": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noImplicitAny": false
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "**/*.test.ts", "build"]
+}
